@@ -2,6 +2,10 @@ body{
   background-color: #abcdef;
 }
 #titleText{
-	color:#286bc23;
-	text-decoration: underline; 
+	color:black;
+	text-decoration: underline;
+}
+
+#titleText:hover{
+	color: blue;
 }
