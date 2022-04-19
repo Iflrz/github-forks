@@ -4,8 +4,11 @@ body{
 #titleText{
 	color:black;
 	text-decoration: underline;
+	transition: transform 0.6s ease-in;
+    display: inline-block;
 }
 
 #titleText:hover{
 	color: blue;
+	transform: translate(100px, 40px) scale(1.5);
 }
